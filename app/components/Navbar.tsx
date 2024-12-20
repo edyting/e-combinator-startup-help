@@ -9,7 +9,7 @@ const Navbar = async () => {
     const session = await auth();
 
   return (
-      <header className='px-5 py-3 bg-white shadow-sm  text-black'>
+      <header className='px-5 py-3 font-work-sans bg-white shadow-sm  text-black'>
           
           <nav className='flex justify-between items-center'>
               <Link href='/' className='text-blue-600 font-bold'> E-Combinator <small>by edyxCode</small> </Link>
